@@ -100,7 +100,7 @@ new VenoBox({
 
 // slider start 
 
-$('.autoplay').slick({
+$('.slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
