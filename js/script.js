@@ -88,3 +88,24 @@ $(function(){
       }, 0)
   }());
 		
+// vanobox start 
+new VenoBox({
+    selector: '.my-image-links',
+    numeration: true,
+    infinigall: true,
+    share: true,
+    spinner: 'rotating-plane'
+});
+// vanobox end
+
+// slider start 
+
+$('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  prevArrow:'<i class="fa-regular fa-circle-left"></i> ',
+  nextArrow:'<i class="fa-regular fa-circle-right"></i>'
+});
+// slider end 
