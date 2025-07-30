@@ -105,7 +105,9 @@ $('.slider').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 1000,
-  prevArrow:'<i class="fa-regular fa-circle-left"></i> ',
-  nextArrow:'<i class="fa-regular fa-circle-right"></i>'
+arrows: false
 });
 // slider end 
+new VenoBox({
+    selector: '.my-video-links',
+});
